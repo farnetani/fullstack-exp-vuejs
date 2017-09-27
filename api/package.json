@@ -19,6 +19,7 @@
     "method-override": "^2.3.9",
     "mongo-sanitize": "^1.0.0",
     "mongoose": "^4.11.11",
+    "socket.io": "^2.0.3",
     "typescript": "^2.5.2",
     "ua-parser-js": "^0.7.14"
   },
