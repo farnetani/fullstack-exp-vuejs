@@ -1,0 +1,18 @@
+.mt-label {
+    margin-top: 1.75em;
+}
+.text-danger {
+    color: $danger
+}
+.text-bold {
+    font-weight: bold
+}
+.el-table {
+    td.action {
+        padding: 0px;
+        padding-top: 5px;
+    }
+    td.action-icon {
+        padding: 0px;
+    }
+}
