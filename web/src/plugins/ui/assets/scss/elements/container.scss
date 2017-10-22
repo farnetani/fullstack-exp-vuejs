@@ -1,0 +1,34 @@
+.container {
+  margin: 0 auto;
+  position: relative;
+  @mixin from($desktop) {
+    max-width: $desktop - (2 * $gap);
+    width: $desktop - (2 * $gap);
+    &.is-fluid {
+      margin-left: $gap;
+      margin-right: $gap;
+      max-width: none;
+      width: auto;
+    } 
+  }
+  @mixin until($widescreen) {
+    &.is-widescreen {
+      max-width: $widescreen - (2 * $gap);
+      width: auto;
+    }
+  }
+  @mixin until($fullhd) {
+    &.is-fullhd {
+      max-width: $fullhd - (2 * $gap);
+      width: auto;
+    }
+  }
+  @mixin from($widescreen) {
+    max-width: $widescreen - (2 * $gap);
+    width: $widescreen - (2 * $gap);
+  }
+  @mixin from($fullhd) {
+    max-width: $fullhd - (2 * $gap);
+    width: $fullhd - (2 * $gap);
+  }
+}

@@ -1,0 +1,37 @@
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: none;
+  overflow-y: none;
+  text-size-adjust: 100%;
+}
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+section {
+  display: block
+}
+
+body {
+  font-size: 1rem;
+}
+
+// Inline
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+input[type="checkbox"], input[type="radio"] { vertical-align: baseline }
+
+small { font-size: 0.875em }
+
+span {
+  font-style: inherit;
+  font-weight: inherit;
+}

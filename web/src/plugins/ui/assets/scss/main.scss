@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+// Configurações básicas
+@import "utilities/all";
+@import "not-theme/all";
+
+//Tema padrao
+.app {
+  @import "themes/default";
+  @import 'theming';
+}
+
+// Tema dark
+.app-dark {
+  @import "themes/dark";
+  @import 'theming';
+}
