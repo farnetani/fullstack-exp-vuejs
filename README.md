@@ -1,8 +1,9 @@
 # Sobre
 
-> FullStack Javascript utilizando Vuejs no frontend e NodeJs+Express no Backend. Já integrado com MongoDb (Mongoose) e Banco de Dados Relacionais (SequelizeJS)
+> FullStack Javascript utilizando Vuejs no frontend e NodeJs+Express no Backend. <br/>
+> Já integrado com MongoDb (Mongoose) e Banco de Dados Relacionais (SequelizeJS)
 
-## Build APi
+## Build api
 
 ``` bash
 # instala cliente sequelize 
@@ -28,7 +29,7 @@ npm run uninstall
 
 ```
 
-## Build Web
+## Build web
 
 ``` bash
 # Vá para a pasta web
